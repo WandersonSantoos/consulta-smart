@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <meta name="description" content="Av Padre Meira, Nº 35 - Ed. Paraná - Centro, João Pessoa-PB">
+
+    <!-- SMO -->
+    <meta property="og:title" content="#sejaSmart e Venda mais">
+    <meta property="og:site_name" content="Smart Promotora - Solicitações">
+    <meta property="og:description" content="Av Padre Meira, Nº 35 - Ed. Paraná - Centro, João Pessoa-PB">
+    <meta property="og:image" content="http://smartpromotora.com/img/logopreto.png">
+    <meta property="og:image:type" content="logopreto.png">
+
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <script defer src="app.js"></script>
+    <title>Pré-consulta</title>
+</head>
+<body>
+    <div class="container">
+        <div class="child-content">
+            <a href="http://smartpromotora.com/" target="_blank"><img class="logo" src="img/logobranco.png" alt="Logo marca"></a>
+            <span class="p-title">Preecha os campos abaixo:</span>
+
+            <!--Linha 1 -->
+            <div class="campotexto">
+                <div class="cont-principal">
+                    <label class="label-telefone" for="cpf">CPF:</label>
+                    <input type="text" name="CPF:" placeholder="000.000.000-00" id="cpf" min="0" maxlength="14" autocomplete="off" required>
+                </div>
+            
+                <div class="cont-principal">
+                    <label class="local" for="data_nascimento">Data de Nascimento:</label>
+                    <input type="date" name="Data de Nascimento:" autocomplete="off" min="0" id="data_nascimento" required>
+                </div>
+            </div>
+
+            <!--Linha 2 -->
+            <div class="campotexto2">
+                <div class="cont-local">
+                    <label class="" for="bancos">Bancos:</label>
+                    <select name="Bancos:" id="bancos" required>
+                        <option disabled selected>- Selecione -</option>
+                        <option>C6 Bank</option>
+                        <option>Panamericano</option>
+                        <option>Crefisa</option>
+                        <option>Master</option>
+                        <option>Facta</option>
+                        <option>Icred</option>
+                        <option>Capital</option>
+                        <option>BMG</option>
+                        <option>Daycoval</option>
+                        <option>Cashcard</option>
+                        <option>Olé</option>
+                        <option>Bradesco</option>
+                        <option>Santander</option>
+                        <option>Safra</option>
+                        <option>Banrisul</option>
+                        <option>Itaú</option>
+                    </select>
+                </div>
+            
+                <div class="cont-local">
+                    <label for="produto">Produto:</label>
+                    <select name="Produto:" id="produto" autocomplete="off">
+                        <option disabled selected>- Selecione -</option>
+                        <option>Novo</option>
+                        <option>FGTS</option>
+                        <option>Portabilidade</option>
+                        <option>Refinanciamento</option>
+                        <option>Refin da Portabilidade</option>
+                        <option>Cartão</option>
+                        <option>Cartão Beneficio</option>
+                    </select>
+                </div>
+            </div>
+
+            <!--Linha 3 -->
+            <div class="campotexto3">
+                <div class="cont-principal">
+                    <label class="label-telefone" for="beneficio">Benefício:</label>
+                    <select name="Benefício:" id="beneficio" autocomplete="off">
+                        <option disabled selected>- Selecione -</option>
+                        <option value="41">41 - Aposentadoria por idade</option>
+                        <option value="32">32 - Aposentadoria por invalidez previdenciária</option>
+                        <option value="42">42 - Aposentadoria por tempo de contribuição previdenciária</option>
+                        <option value="46">46 - Aposentadoria por tempo de contribuição especial</option>
+                        <option value="57">57 - Aposentadoria por tempo de contribuição de professor (Emenda Const.18/81)</option>
+                        <option value="21">21 - Pensão por morte previdenciária</option>
+                        <option value="23">23 - Pensão por morte de ex-combatente</option>
+                        <option value="29">29 - Pensão por morte de ex-combatente marítimo (Lei nº 1.756/52)</option>
+                        <option value="25">25 - Auxílio-reclusão</option>
+                        <option value="31">31 - Auxílio-doença</option>
+                        <option value="36">36 - Auxílio Acidente</option>
+                        <option value="91">91 - Auxílio-doença por acidente do trabalho</option>
+                        <option value="92">92 - Aposentadoria por invalidez por acidente do trabalho</option>
+                        <option value="93">93 - Pensão por morte por acidente do trabalho</option>
+                        <option value="94">94 - Auxílio-acidente por acidente do trabalho</option>
+                        <option value="85">85 - Pensão mensal vitalícia do seringueiro (Lei nº 7.986/89)</option>
+                        <option value="86">86 - Pensão mensal vitalícia do dep.do seringueiro (Lei nº 7.986/89)</option>
+                        <option value="87">87 - Amparo assistencial ao portador de deficiência (LOAS)</option>
+                        <option value="88">88 - Amparo assistencial ao idoso (LOAS)</option>
+                        <option value="68">68 - Pecúlio especial de aposentadoria</option>
+                        <option value="80">80 - Salário-maternidade</option>
+                        <option value="54">54 - Pensão especial vitalícia (Lei nº 9.793/99)</option>
+                        <option value="56">56 - Pensão mensal vitalícia por síndrome de talidomida (Lei nº 7.070/82)</option>
+                        <option value="60">60 - Pensão especial mensal vitalícia (Lei 10.923, de 24/07/2004)</option>
+                        <option value="89">89 - Pensão especial aos dependentes de vítimas fatais p/ contaminação na hemodiálise</option>
+                    </select>
+                </div>
+            
+                <div class="cont-principal">
+                    <label class="local" for="analfabeto">Analfabeto?</label>
+                    <select name="Analfabeto?" id="analfabeto" autocomplete="off">
+                        <option disabled selected>- Selecione -</option>
+                        <option>Sim</option>
+                        <option>Não</option>
+                    </select>
+                </div>
+            </div>
+            <button class="btn" type="button" onclick="validarCamposEConsultar()">Consultar</button>
+
+            <div id="customAlert" class="modal">
+                <div class="modal-content">
+                  <span class="close" onclick="fecharAlerta()">&times;</span>
+                  <p id="alertMessage"></p>
+                </div>
+            </div>
+
+            <div class="container-form">
+                <form action="">
+                    <div class="formulario">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="resultado" class="resultados">
+            
+        </div>
+    </div>
+        <a href="https://wandersonsantoos.github.io/wand-portf/" target="_blank">
+            <img class="img-marca" src="img/logoWS.ico" alt="Desenvolvido por: @wanderson.jpeg">
+        </a>
+
+        <script src="scripts/app.js"></script>
+</body>
+</html>
